@@ -12,3 +12,13 @@ if is_prime:
     print("Prime")
 else:
     print("Not prime")
+    
+#for loop
+x = int(input("Input integer number: "))
+
+for div in range(2, x):
+     if not x % div:
+            print("Not prime")
+            break
+else:
+     print("Prime")
